@@ -1,0 +1,15 @@
+{
+  "name": "javascript-game-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass head.scss styles.css -w"
+  },
+  "author": "Yakubu",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0"
+  }
+}
