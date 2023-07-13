@@ -14,7 +14,7 @@ window.addEventListener('load', function(){
         }
 
         update(){
-
+           this.player.update();
         }
 
         draw(context){
@@ -26,6 +26,8 @@ window.addEventListener('load', function(){
      console.log('Game: ', game);
 
      function animate(){
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        game.update();
         game.draw(ctx);
         requestAnimationFrame(animate);
      }
