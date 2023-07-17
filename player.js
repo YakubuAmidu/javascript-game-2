@@ -9,7 +9,7 @@ export class Player {
     }
 
     update(){
-       this.x++;
+       //this.x++;
     }
 
     draw(context){
